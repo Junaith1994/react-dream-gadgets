@@ -5,7 +5,7 @@
 
 .products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 20rem);
     gap: 10px;
     /* background: linear-gradient(to left, #ece9e6, #ffffff); */
     margin-left: 15px;
