@@ -1,0 +1,6 @@
+.header h1 {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}

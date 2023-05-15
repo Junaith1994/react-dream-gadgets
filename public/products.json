@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Canon Classic Camera",
+        "price": 430,
+        "img": "./products-image/canon-classic-camera.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Spark Mini Drone",
+        "price": 750,
+        "img": "./products-image/spark-mini-drone.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Canon DSLR Camera",
+        "price": 350,
+        "img": "./products-image/canon-dslr-camera.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Canon EOS C-300 Video Camera",
+        "price": 1200,
+        "img": "./products-image/canon-eos-c300.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Canon EOS-6D Mark-ii Camera",
+        "price": 330,
+        "img": "./products-image/canon-eos6D-mark2-camera.jpg"
+    },
+    {
+        "id": 6,
+        "name": "DJI Chinese Drone",
+        "price": 510,
+        "img": "./products-image/dji-chinese-drone.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Nikon High Resolution Camera",
+        "price": 480,
+        "img": "./products-image/nikon-dx-vr-camera.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Nikon FG Camera",
+        "price": 200,
+        "img": "./products-image/nikon-fg-camera.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Phantom Standard Drone",
+        "price": 1100,
+        "img": "./products-image/phantom-standard-drone.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Phantom AI Featured Drone",
+        "price": 2500,
+        "img": "./products-image/phantom-standard-white-drone.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Samsung AI Featured Drone",
+        "price": 2600,
+        "img": "./products-image/samsung-ai-based-drone.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Sony XD 4K Shooting Camera",
+        "price": 4000,
+        "img": "./products-image/sony-xdcam4k-video-camera.jpg"
+    }
+]
