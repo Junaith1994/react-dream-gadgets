@@ -11,7 +11,17 @@
     justify-items: center;
 }
 
-@media (min-width: 480px) and (max-width: 680px) {
+.selected-products {
+    position: fixed;
+    top: auto;
+    right: 4rem;
+}
+
+.selected-products h2 {
+    text-align: center;
+}
+
+@media (min-width: 420px) and (max-width: 680px) {
     .shop-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
