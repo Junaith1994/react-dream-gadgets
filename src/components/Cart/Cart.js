@@ -3,7 +3,7 @@ import './Cart.css';
 import CartItem from '../Cart-Item/CartItem';
 
 const Cart = (props) => {
-    const { cart, randomSelect, randomResult } = props;
+    const { cart, randomSelect, randomResult, removeProducts } = props;
     // console.log(randomSelect);
 
     return (
@@ -16,7 +16,7 @@ const Cart = (props) => {
             }
             <div className='cart-btn'>
                 <button className='choose-btn-grad' onClick={() => randomSelect()}>Choose Randomly</button>
-                <button className='remove-btn-grad'>Remove Items</button>
+                <button className='remove-btn-grad' onClick={() => removeProducts()}>Remove Items</button>
             </div>
             <h4>Choose This Product: {randomResult}</h4>
         </div>

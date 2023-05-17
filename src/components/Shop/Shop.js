@@ -25,6 +25,7 @@ const Shop = () => {
         }
     }
 
+    // Random product selection functionality
     const [randomResult, setRandomResult] = useState([]);
     const randomSelect = () => {
         const randomNumber = Math.floor(Math.random() * products.length);
@@ -33,6 +34,11 @@ const Shop = () => {
             const randomProduct = cart[randomNumber];
             setRandomResult(randomProduct.name);
         }
+    }
+
+    // Product Removing functionalities
+    const removeProducts = () => {
+        setCart([]);
     }
 
     return (
@@ -52,6 +58,7 @@ const Shop = () => {
                 cart={cart}
                 randomSelect={randomSelect}
                 randomResult={randomResult}
+                removeProducts={removeProducts}
                 ></Cart>
             </div>
         </div>

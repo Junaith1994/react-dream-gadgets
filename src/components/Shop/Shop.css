@@ -12,9 +12,9 @@
 }
 
 .selected-products {
-    position: fixed;
+    /* position: fixed;
     top: auto;
-    right: 4rem;
+    right: 4rem; */
 }
 
 .selected-products h2 {
