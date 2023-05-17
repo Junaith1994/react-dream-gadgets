@@ -1,0 +1,9 @@
+.item {
+    display: flex;
+    margin-right: 15px;
+}
+
+.item img {
+    width: 50px;
+    /* padding-right: 10px; */
+}
