@@ -19,7 +19,7 @@ const Shop = () => {
         let newCart = [];
         if(cart) {
             newCart = [...cart, selectedItem];
-            if(!cart.includes(selectedItem)) {
+            if(!cart.includes(selectedItem) && newCart.length < 5) {
                 setCart(newCart);
             }
         }
@@ -28,11 +28,10 @@ const Shop = () => {
     // Random product selection functionality
     const [randomResult, setRandomResult] = useState([]);
     const randomSelect = () => {
-        const randomNumber = Math.floor(Math.random() * products.length);
-        console.log(randomNumber);
+        const randomNumber = Math.floor(Math.random() * cart.length);
         if (cart[randomNumber] !== -1 && cart[randomNumber] !== undefined) {
             const randomProduct = cart[randomNumber];
-            setRandomResult(randomProduct.name);
+            setRandomResult(randomProduct);
         }
     }
 

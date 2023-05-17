@@ -6,6 +6,15 @@
     border-radius: 10px;
 }
 
+.random-product {
+    display: flex;
+}
+
+.random-product img {
+    width: 60px;
+    margin-right: 10px;
+}
+
 /* Cart button Style */
 .choose-btn-grad {
     background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
