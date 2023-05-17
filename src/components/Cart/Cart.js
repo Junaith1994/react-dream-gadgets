@@ -16,7 +16,7 @@ const Cart = (props) => {
                     ></CartItem>)
             }
             <div className='cart-btn'>
-                <button className='choose-btn-grad' onClick={() => randomSelect()}>Choose Randomly</button>
+                <button className='choose-btn-grad' onClick={() => randomSelect()}>Choose One</button>
                 <button className='remove-btn-grad' onClick={() => removeProducts()}>Remove Items</button>
             </div>
             <div className='random-product'>
