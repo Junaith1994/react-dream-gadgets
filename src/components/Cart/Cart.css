@@ -8,11 +8,16 @@
 
 .random-product {
     display: flex;
+    margin-left: 16px;
 }
 
 .random-product img {
     width: 60px;
     margin-right: 10px;
+}
+
+.cart-btn {
+    margin: 16px;
 }
 
 /* Cart button Style */

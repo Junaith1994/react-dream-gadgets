@@ -26,4 +26,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .products {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));;
+    }
 }
