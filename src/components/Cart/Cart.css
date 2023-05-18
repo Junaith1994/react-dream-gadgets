@@ -65,4 +65,8 @@
     .choose-btn-grad {
         margin-bottom: 10px;
     }
+
+    .random-product img {
+        width: 45px;
+    }
 }

@@ -24,4 +24,11 @@
     .products {
         grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));;
     }
+
+    .selected-products {
+        position: fixed;
+        top: 100px;
+        right: 0px;
+        left: 205px;
+    }
 }
