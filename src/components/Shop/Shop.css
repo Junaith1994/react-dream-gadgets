@@ -15,6 +15,12 @@
     text-align: center;
 }
 
+.answers {
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+}
+
 @media (min-width: 412px) and (max-width: 680px) {
     .shop-container {
         display: grid;
@@ -23,12 +29,5 @@
 
     .products {
         grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));;
-    }
-
-    .selected-products {
-        position: fixed;
-        top: 100px;
-        right: 0px;
-        left: 205px;
     }
 }
