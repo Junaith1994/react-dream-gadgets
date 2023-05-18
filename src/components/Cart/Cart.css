@@ -61,7 +61,7 @@
     text-decoration: none;
 }
 
-@media (min-width: 420px) and (max-width: 680px) {
+@media (min-width: 412px) and (max-width: 680px) {
     .choose-btn-grad {
         margin-bottom: 10px;
     }

@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-@media (min-width: 420px) and (max-width: 680px) {
+@media (min-width: 412px) and (max-width: 680px) {
     .shop-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
