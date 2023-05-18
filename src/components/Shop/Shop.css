@@ -11,12 +11,6 @@
     justify-items: center;
 }
 
-.selected-products {
-    /* position: fixed;
-    top: auto;
-    right: 4rem; */
-}
-
 .selected-products h2 {
     text-align: center;
 }
